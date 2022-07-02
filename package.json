@@ -1,11 +1,27 @@
 {
-  "name": "exjs2.3",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "exjs2.3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "eslint": "eslint"
+    },
+    "keywords": [
+        "npm",
+        "nodejs"
+    ],
+    "author": "",
+    "license": "ISC",
+    "private": true,
+    "devDependencies": {
+        "eslint": "^8.11.0",
+        "prettier": "^2.6.0"
+    },
+    "dependencies": {
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-unicorn": "^41.0.1"
+    }
 }
